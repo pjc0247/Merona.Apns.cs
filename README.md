@@ -19,6 +19,12 @@ Merona v2
       * Services
         * Handlers
 
+* Machine : 메로나 서버가 구동되는 물리/가상적 머신
+* Merona Sever : 메로나 서버 프로세스
+* Moudle : 큰 단위에 있어서의 기능들의 집합
+* Service : 한 모듈에 있어서의 분리 가능한 기능들의 집합
+* Handler : 서비스의 각 패킷들에 대한 핸들러
+
 Merona.Apns.cs
 ----
 * Merona에서 애플 푸시 서비스 지원을 위한 용도

@@ -12,6 +12,13 @@ Merona v2
 * internal 모듈은 프로세스 안 내부 모듈간에 통신용
 * 통신할 모듈이 내부에 있던 외부에 있던 Cluster 인터페이스는 동일하게 사용 가능하며, internal 모듈간의 통신일 경우에는 소켓 대신에 공유 메세지 큐를 사용
 
+* Machine
+  * Merona Server 
+    * Thread Pool
+    * Modules
+      * Services
+        * Handlers
+
 Merona.Apns.cs
 ----
 * Merona에서 애플 푸시 서비스 지원을 위한 용도

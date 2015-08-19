@@ -10,6 +10,7 @@ Merona v2
 * 서버형 모듈, internal 모듈
 * 서벼형 모듈은 현재 Server 오브젝트와 동일
 * internal 모듈은 프로세스 안 내부 모듈간에 통신용
+* Cluster 인터페이스는 동일하며, internal 모듈간의 통신일 경우에는 소켓 대신에 공유 메세지 큐를 사용
 
 Merona.Apns.cs
 ----
